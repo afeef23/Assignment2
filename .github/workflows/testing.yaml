@@ -9,6 +9,7 @@ on:
   pull_request:
     branches:
       - master
+  workflow_dispatch:
 
 # what to do once the workflow is triggered
 jobs:
